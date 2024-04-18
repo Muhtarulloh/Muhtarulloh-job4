@@ -11,18 +11,18 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text(
             'Aplikasi Flutter',
-            style: TextStyle(color: Colors.black), // Mengatur warna teks menjadi putih
+            style: TextStyle(color: Colors.black), 
           ),
-          backgroundColor: Colors.orange, // Mengatur warna latar belakang AppBar menjadi orange
+          backgroundColor: Colors.orange, 
         ),
         body: Container(
-          color: Colors.pink, // Mengatur warna latar belakang body menjadi pink
+          color: Colors.pink, 
           child: Center(
             child: Text(
-              'Selamat Datang Di flutter',
+              'Hello Muhtarulloh',
               style: TextStyle(
                 fontSize: 24.0,
-                backgroundColor: Colors.pink, // Mengatur warna latar belakang teks menjadi pink
+                backgroundColor: Colors.pink, 
               ),
             ),
           ),
